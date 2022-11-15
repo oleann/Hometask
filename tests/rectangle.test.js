@@ -11,6 +11,7 @@ test('should give properly rectangle area', () =>{
 });
 
 test('should give the info about perimeter and area', () =>{
-    const output = getRectangleInfo(2, 3);
-    expect('The perimeter of a rectangle is ${perimeter} and the area is ${area}'); 
+    const output = getRectangleInfo(3, 4);
+    // expect(area).toBe(12);
+    // expect(perimeter).toBe(14);
 });
